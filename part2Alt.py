@@ -9,15 +9,15 @@ while (age != -1):
         pocket_money = 0
         child = (name, pocket_money)
         children_list.append(child)
-    elif (age >= 5 or age <= 6):
+    elif (age == 5 or age <= 6):
         pocket_money = 5
         child = (name, pocket_money)
         children_list.append(child)
-    elif (age >= 7 or age <= 9):
+    elif (age == 7 or age <= 9):
          pocket_money = 10
          child = (name, pocket_money)
          children_list.append(child)
-    elif (age >= 10 or age <= 13):
+    elif (age == 10 or age <= 13):
         pocket_money = 20
         child = (name, pocket_money)
         children_list.append(child)

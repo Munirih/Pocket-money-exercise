@@ -12,28 +12,26 @@ for index, item in enumerate(children):
 
     if (age < 5):
         pocket_money = 0
-        
         #store the name and pocket money of a child in a tuple
-        child = (name, pocket_money) 
+        c = (name, pocket_money) 
         #add the tuple into a list
-        children_list.append(child) 
-    elif (age >= 5 or age <= 6):
+        children_list.append(c) 
+    elif (age == 5 or age <= 6):
         pocket_money = 5
-        child = (name, pocket_money)
-        children_list.append(child)
-    elif (age >= 7 or age <= 9):
+        c = (name, pocket_money)
+        children_list.append(c)
+    elif (age == 7 or age <= 9):
          pocket_money = 10
-         child = (name, pocket_money)
-         children_list.append(child)
-    elif (age >= 10 or age <= 13):
+         c = (name, pocket_money)
+         children_list.append(c)
+    elif (age == 10 or age <= 13):
         pocket_money = 20
-        child = (name, pocket_money)
-        children_list.append(child)
+        c = (name, pocket_money)
+        children_list.append(c)
     elif (age >= 14 ):
         pocket_money = 30
-        child = (name, pocket_money)
-        children_list.append(child)
-
+        c = (name, pocket_money)
+        children_list.append(c)
 
 #print all the tuples in a list
 print(children_list)
